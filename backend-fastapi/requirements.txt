@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pymongo[srv]
+python-dotenv
+google-generativeai
+PyPDF2
+pytesseract
+python-docx
+langdetect
+pillow
+python-multipart
+llama-index-core
+llama-index-embeddings-gemini
