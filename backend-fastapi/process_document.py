@@ -129,7 +129,8 @@ def process_content_with_ai(text: str, filename: str) -> dict:
 # --- 4. MAIN EXECUTION BLOCK ---
 if __name__ == "__main__":
     # --- 📍 POINT THIS TO YOUR LOCAL DOCUMENT ---
-    document_path = Path("documents\malayalam_test_doc.pdf")
+    document_path = Path("documents\EDDR-Final-R1-31-01-24.pdf")
+    
     
     # Run the full pipeline
     extracted_text = extract_text_from_local_file(document_path)
